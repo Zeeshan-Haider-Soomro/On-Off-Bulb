@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+img{
+    height: 400px;
+    width: 200px;
+    object-fit: contain;
+}
+
+button{
+    background: linear-gradient(45deg, #c0161653, #918232, #0e16ac);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 50px;
+    width: 50px;
+    color: aliceblue;
+}
