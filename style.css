@@ -36,3 +36,9 @@ button{
     width: 50px;
     color: aliceblue;
 }
+.footer{
+    color: white;
+    margin-top: 130px;
+    width: 100vw;
+    text-align: center;
+}
